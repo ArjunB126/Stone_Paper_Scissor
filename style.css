@@ -8,3 +8,10 @@
 body{
     background-color:#EBF5EE;
  }
+
+h1 {
+  background-color: #542344;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
