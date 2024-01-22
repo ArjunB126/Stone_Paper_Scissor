@@ -45,3 +45,9 @@ img {
   margin-top: 5rem;
 
 }
+
+.score-board {
+  display: flex;
+  justify-content: center;
+
+}
