@@ -66,6 +66,8 @@ img {
 #msg {
   background-color: #4E937A;
   color: white;
+  font-size: 2rem;
+  display: inline;
 
 }
 
