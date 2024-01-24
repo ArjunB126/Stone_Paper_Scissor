@@ -7,6 +7,7 @@ const msg = document.querySelector("#msg");
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 
+
 const genCompChoice = () =>
 {
     const options = ["rock", "paper", "scissors"];
@@ -14,12 +15,16 @@ const genCompChoice = () =>
     return options[randIdx];
 };
 
+
+
 const drawGame = () =>
 {
     msg.innerText = "Game was Draw. Play again.";
     msg.style.backgroundColor = "#081b31";
 };
-  
+ 
+
+
 const showWinner = (userWin, userChoice, compChoice) => 
 {
     if (userWin)
@@ -35,6 +40,8 @@ const showWinner = (userWin, userChoice, compChoice) =>
         msg.style.backgroundColor = "red";
       }
 };
+
+
 
 const playGame = (userChoice) => {
     //Generate computer choice
@@ -58,3 +65,5 @@ const playGame = (userChoice) => {
       showWinner(userWin, userChoice, compChoice);
     }
   };
+
+
