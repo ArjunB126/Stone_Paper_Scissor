@@ -35,3 +35,19 @@ const showWinner = (userWin, userChoice, compChoice) =>
         msg.style.backgroundColor = "red";
       }
 };
+
+const playGame = (userChoice) => {
+    //Generate computer choice
+    const compChoice = genCompChoice();
+  
+    if (userChoice === compChoice) {
+      //Draw Game
+      drawGame();
+    } else {
+      let userWin = true;
+      if (userChoice === "rock") {
+        //scissors, paper
+        userWin = compChoice === "paper" ? false : true;
+
+    }
+  };
