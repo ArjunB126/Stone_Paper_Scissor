@@ -20,3 +20,12 @@ const drawGame = () =>
     msg.style.backgroundColor = "#081b31";
 };
   
+const showWinner = (userWin, userChoice, compChoice) => 
+{
+    if (userWin) {
+      userScore++;
+      userScorePara.innerText = userScore;
+      msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
+      msg.style.backgroundColor = "green";
+    }
+};
