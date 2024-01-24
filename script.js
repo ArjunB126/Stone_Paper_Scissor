@@ -43,7 +43,8 @@ const showWinner = (userWin, userChoice, compChoice) =>
 
 
 
-const playGame = (userChoice) => {
+const playGame = (userChoice) =>
+ {
     //Generate computer choice
     const compChoice = genCompChoice();
   
@@ -67,3 +68,11 @@ const playGame = (userChoice) => {
   };
 
 
+  choices.forEach((choice) =>
+ {
+    choice.addEventListener("click", () => 
+    {
+      const userChoice = choice.getAttribute("id");
+      playGame(userChoice);
+    });
+});
