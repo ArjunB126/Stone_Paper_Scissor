@@ -31,6 +31,7 @@ const showWinner = (userWin, userChoice, compChoice) =>
     } else {
         compScore++;
         compScorePara.innerText = compScore;
-
+        msg.innerText = `You lost. ${compChoice} beats your ${userChoice}`;
+        msg.style.backgroundColor = "red";
       }
 };
