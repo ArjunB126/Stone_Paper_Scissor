@@ -32,5 +32,6 @@ No installation required! Simply open the `index.html` file in your favorite web
 
 
 ## Enjoy The Game Here   !!!!
-Now, what are you waiting for? Start playing and see if you've got what it takes to emerge victorious in the ultimate showdown of rock, paper, scissors! 💪😎
+Now, what are you waiting for? Start playing and see if you've got what it takes to emerge victorious in the ultimate showdown of rock, paper, scissors! 
+https://stone-paper-scissors-funmanaia.netlify.app/ 💪😎
 
