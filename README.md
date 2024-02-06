@@ -20,3 +20,9 @@ Playing is as easy as 1-2-3! Simply choose your weapon - rock, paper, or scissor
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Open the `index.html` file in your web browser.
+
+## Features
+- Randomized computer choices for unpredictable outcomes.
+- Real-time feedback to keep you engaged and entertained.
+- Endless rounds of fun, because who can resist just one more game?
+
