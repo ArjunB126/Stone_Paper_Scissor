@@ -14,3 +14,9 @@ Playing is as easy as 1-2-3! Simply choose your weapon - rock, paper, or scissor
 - Rock crushes scissors 🪨 ✂️
 - Scissors cuts paper ✂️ 📄
 - Paper covers rock 📄 🪨
+
+## Running the Game
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Open the `index.html` file in your web browser.
