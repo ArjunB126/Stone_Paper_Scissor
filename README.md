@@ -26,3 +26,7 @@ Playing is as easy as 1-2-3! Simply choose your weapon - rock, paper, or scissor
 - Real-time feedback to keep you engaged and entertained.
 - Endless rounds of fun, because who can resist just one more game?
 
+  ## Installation
+
+No installation required! Simply open the `index.html` file in your favorite web browser, and let the games begin! 💻🚀🎉
+
